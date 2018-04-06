@@ -7,10 +7,9 @@ def display_board(board)
 end
 
 def input_to_index(input)
-
+  prompt = gets.strip
 end
 
-def move
-  puts "Where would you like to go?"
-  input = gets.strip
+def move(board, index, character = "X")
+
 end
